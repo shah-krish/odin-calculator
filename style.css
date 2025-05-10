@@ -42,7 +42,11 @@ body{
 
 .display{
     border: 2px solid black;
-    text-align: right;
+    /* text-align: right; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
 
 button{
@@ -90,6 +94,11 @@ button{
     justify-content: space-between;
     gap: 5px;
 }
+
 .row5 > *{
     flex: 1;
+}
+
+.text{
+    font-size: 25px;
 }
