@@ -21,7 +21,7 @@ body{
     flex-direction: column;
     height: 480px;
     width: 380px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     gap: 10px;
 }
 .container{
@@ -36,12 +36,55 @@ body{
 .wrapper2 > * {
     height: 80px;
     width: 380px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 8px;
 }
-/* .display{
-   
-}
-.row1{
 
-} */
+.display{
+    border: 2px solid black;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.row1 > *{
+    flex: 1;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.row2 > *{
+    flex: 1;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.row3 > *{
+    flex: 1;
+}
+
+.row4{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.row4 > *{
+    flex: 1;
+}
+
+.row5{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.row5 > *{
+    flex: 1;
+}
