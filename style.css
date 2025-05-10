@@ -1,0 +1,23 @@
+html, body { 
+  /*   When you set body { height: 100%; }, it tries to be 100% of its parent — which is html.
+    But if html has no height defined, body's 100% has no reference point, so it won’t actually fill the screen. */
+
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    /* border: 2px dotted red; */
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    /* align-self: center; */
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+}
