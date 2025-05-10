@@ -42,6 +42,11 @@ body{
 
 .display{
     border: 2px solid black;
+    text-align: right;
+}
+
+button{
+    border-radius: 8px;
 }
 
 .row1{
