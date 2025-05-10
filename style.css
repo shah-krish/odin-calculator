@@ -33,9 +33,15 @@ body{
     justify-content: center;
     align-items: center;
 }
-.display{
+.wrapper2 > * {
     height: 80px;
     width: 380px;
     border: 2px solid black;
     border-radius: 8px;
 }
+/* .display{
+   
+}
+.row1{
+
+} */
